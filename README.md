@@ -1,11 +1,23 @@
 # TraeAccountCreatorPlus
 S-Trespassing/Trae-Account-Creator 的小幅修改版。
 
-删了周年礼包获取，删减了一些print，从mail.cx迁移到temporam，添加真·五光十色的输出，，
+
+
+基于 Playwright + 临时邮箱，支持单账号注册与批量并发注册，并在完成后导出账号信息和 Cookie。
+
+————
+
+mail.cx提供的临时邮箱域名被字节封完了，因而本改版将临时邮箱服务商从mail.cx迁移到temporam。
+
+temporam目前也有部分域名被封，能用到什么时候不知道。
+
+temporam每个账号提供1000次免费额度，额度花完了的话需要自己想办法。反正刷出来这堆号够我用一个月。
+
+删了周年礼包获取，删减了一些print，添加真·五光十色的输出，，
 
 额，别的修改点忘了。
 
-基于 Playwright + 临时邮箱，支持单账号注册与批量并发注册，并在完成后导出账号信息和 Cookie。
+
 
 使用方法
 ---
