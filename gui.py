@@ -14,7 +14,7 @@ REGISTER_SCRIPT = os.path.join(SCRIPT_DIR, "register.py")
 class RegisterGUI:
     def __init__(self, root):
         self.root = root
-        self.root.title("TARnGET - 批量注册工具")
+        self.root.title(" ")
         self.root.geometry("1000x750")
         self.root.resizable(True, True)
 
